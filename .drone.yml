@@ -1,4 +1,4 @@
-image: bradrydzewski/base
+image: mattgruter/drone
 env:
   - PATH=${HOME}/.rbenv/versions/${RBENV_VERSION}/bin:$PATH
 script:
