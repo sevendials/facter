@@ -2,7 +2,7 @@ image: ruby
 env:
   - PATH=${HOME}/.rbenv/versions/${RBENV_VERSION}/bin:$PATH
 script:
-  - sudo apt-get install build-essential cmake libboost-all-dev libssl-dev libyaml-cpp-dev libblkid-dev libcurl4-openssl-dev
+  - sudo apt-get install build-essential cmake libboost-all-dev libssl-dev libblkid-dev libcurl4-openssl-dev
   - cd ${DRONE_BUILD_DIR}
   - cmake .
 notify:
