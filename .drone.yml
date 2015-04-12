@@ -2,7 +2,7 @@ image: ruby1.9.3
 env:
   - PATH=${HOME}/.rbenv/versions/${RBENV_VERSION}/bin:$PATH
 script:
-  - env
+  - cd ${DRONE_BUILD_DIR}
   - cmake
 notify:
   email:
