@@ -1,4 +1,4 @@
-image: ruby
+image: bradrydzewski/base
 env:
   - PATH=${HOME}/.rbenv/versions/${RBENV_VERSION}/bin:$PATH
 script:
