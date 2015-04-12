@@ -1,0 +1,9 @@
+image: ruby1.9.3
+env:
+  - PATH=${HOME}/.rbenv/versions/${RBENV_VERSION}/bin:$PATH
+script:
+  - cmake
+notify:
+  email:
+    recipients:
+      - christj@gmail.com
