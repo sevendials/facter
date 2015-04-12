@@ -1,4 +1,4 @@
-image: ubuntu-14.04
+image: ubuntu
 env:
   - PATH=${HOME}/.rbenv/versions/${RBENV_VERSION}/bin:$PATH
 script:
