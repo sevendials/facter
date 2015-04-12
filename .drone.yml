@@ -1,4 +1,4 @@
-image: ubuntu
+image: tutum/ubuntu
 env:
   - PATH=${HOME}/.rbenv/versions/${RBENV_VERSION}/bin:$PATH
 script:
