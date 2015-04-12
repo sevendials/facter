@@ -2,6 +2,7 @@ image: ruby1.9.3
 env:
   - PATH=${HOME}/.rbenv/versions/${RBENV_VERSION}/bin:$PATH
 script:
+  - env
   - cmake
 notify:
   email:
