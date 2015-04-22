@@ -8,7 +8,7 @@ script:
   - cmake .
   - make
   - make install
-  - ls /usr/local/bin/
+  - test $(/usr/local/bin/facter hostname) == $HOSTNAME
 notify:
   email:
     recipients:
