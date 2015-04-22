@@ -8,7 +8,7 @@ script:
   - cmake .
   - make
   - make install
-  - /usr/local/bin/facter
+  - /usr/local/bin/facter || :
   - echo hostname $HOSTNAME
   - echo hostcmd $(hostname)
   - test $(/usr/local/bin/facter hostname) == $(hostname)
